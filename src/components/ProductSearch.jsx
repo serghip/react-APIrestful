@@ -17,7 +17,7 @@ export default function ProductSearch() {
   const [busqueda, setBusqueda]= useState(['']);
 
 const peticionGet=async()=>{
-  await axios.get("http://api.escuelajs.co/api/v1/products")
+  await axios.get("https://api.escuelajs.co/api/v1/products")
   .then(response=>{
     setBusqueda(response.data)
     setTablaProductos(response.data);
