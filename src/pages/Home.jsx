@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductSearch from '@components/ProductSearch'
-import '@styles/Home.scss';
+import ProductSearch from '../components/ProductSearch'
+import '../styles/Home.scss';
 
 const Home = () => {
 	return (

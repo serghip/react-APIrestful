@@ -6,8 +6,8 @@ import Stack from '@mui/material/Stack';
 import Autocomplete from '@mui/material/Autocomplete';
 
 
-import ProductList from '@containers/ProductList';
-import '@styles/ProductSearch.scss'
+import ProductList from '../containers/ProductList';
+import '../styles/ProductSearch.scss'
 import axios from 'axios';
 
 

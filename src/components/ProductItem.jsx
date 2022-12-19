@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/ProductItem.scss';
+import '../styles/ProductItem.scss';
 import { TableRow, TableCell, } from '@mui/material';
 import ButtonDelete from './ButtonDelete';
 import ButtonEdit from './ButtonEdit';

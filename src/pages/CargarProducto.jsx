@@ -1,7 +1,7 @@
 import React from 'react';
 import AddProduct from '../containers/AddProduct';
 
-import '@styles/CargarProducto.scss';
+import '../styles/CargarProducto.scss';
 
 const CargarProducto = () => {
 	return (

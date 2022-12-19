@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/Segunda.scss';
+import '../styles/Segunda.scss';
 
 const Segunda = () => {
 	return (

@@ -1,7 +1,7 @@
 import React, { useContext ,useState} from 'react';
 import AppContext from '../context/AppContext';
 
-import '@styles/ProductList.scss';
+import '../styles/ProductList.scss';
 import ArticleHome from '../components/ArticleHome';
 import ProductItem from '../components/ProductItem';
 

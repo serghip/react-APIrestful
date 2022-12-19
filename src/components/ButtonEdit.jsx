@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/ProductItem.scss';
+import '../styles/ProductItem.scss';
 import ModalEdit from './ModalEdit';
 
 

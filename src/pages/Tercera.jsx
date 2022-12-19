@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/Tercera.scss';
+import '../styles/Tercera.scss';
 
 const Tercera = () => {
 	return (
