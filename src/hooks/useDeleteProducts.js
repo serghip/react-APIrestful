@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const useDeleteProducts = (id) => {
-        axios.delete(`http://api.escuelajs.co/api/v1/products/${id}`)
+        axios.delete(`https://api.escuelajs.co/api/v1/products/${id}`)
             .then(response => {
                 console.log('Eliminacion satisfactoria');
                 document.getElementById(id).remove();
