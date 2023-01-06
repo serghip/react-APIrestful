@@ -3,7 +3,7 @@ const useAddProducts = () => {
     let articuloAdd = document.getElementById('articuloAdd').value;
     let precioAdd = document.getElementById('precioAdd').value;
     //console.log(precioAdd, articuloAdd)
-    axios.post('http://api.escuelajs.co/api/v1/products', {
+    axios.post('https://api.escuelajs.co/api/v1/products', {
         title: articuloAdd,
         price: precioAdd,
         description: "Description",
