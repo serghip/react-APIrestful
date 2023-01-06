@@ -1,7 +1,7 @@
 import useGetProducts from './useGetProducts';
 
 //Colocar aqui la API GET
-const API = 'http://api.escuelajs.co/api/v1/products';
+const API = 'https://api.escuelajs.co/api/v1/products';
 
 const useInitialState = () => {
 const products = useGetProducts(API);
