@@ -4,7 +4,7 @@ const useEditProducts = (id) => {
     let articulo = document.getElementById('articulo').value;
     let precio = document.getElementById('precio').value;
     //console.log(precio, articulo)
-    axios.put(`http://api.escuelajs.co/api/v1/products/${id}`, {
+    axios.put(`https://api.escuelajs.co/api/v1/products/${id}`, {
         title: articulo,
         price: precio
     })
